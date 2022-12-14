@@ -1,0 +1,50 @@
+/* ENUNCIADO
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body article {
+    padding: 0.5em;
+}
+
+body article > h1{
+    color: #aa3b44;
+}
+
+body article > h2{
+    color: #aa3b44;
+}
+
+body article > h3{
+    color: #aa3b44;
+}
+
+body article > h4{
+    color: #aa3b44;
+}
+
+body article > h5{
+    color: #aa3b44;
+}
+
+body article > h6{
+    color: #aa3b44;
+}
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+body article {
+  padding: 0.5em; }
+  body article > h1 {
+    color: #aa3b44; }
+  body article > h2 {
+    color: #aa3b44; }
+  body article > h3 {
+    color: #aa3b44; }
+  body article > h4 {
+    color: #aa3b44; }
+  body article > h5 {
+    color: #aa3b44; }
+  body article > h6 {
+    color: #aa3b44; }

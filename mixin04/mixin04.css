@@ -1,0 +1,9 @@
+table.even-colored tr:nth-of-type(even) {
+  background-color: #bdd1f0; }
+table.even-colored tr:nth-of-type(odd) {
+  background-color: #8493ab; }
+
+table.even-colored.orange tr:nth-of-type(even) {
+  background-color: #f7bd86; }
+table.even-colored.orange tr:nth-of-type(odd) {
+  background-color: #bd824b; }

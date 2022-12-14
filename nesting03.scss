@@ -1,0 +1,24 @@
+
+/* ENUNCIADO
+button{
+    background-color: red;
+    border-width: 0.5em;
+}
+
+button:hover{
+    border-width: 1em;
+}
+*/
+
+//SOLUCIÓN
+
+$border-width: 0.5em;
+
+button{
+    background-color: red;
+    border-width: $border-width;
+
+    &:hover{
+        border-width: $border-width * 2;
+    }
+}

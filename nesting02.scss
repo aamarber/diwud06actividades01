@@ -1,0 +1,28 @@
+/*
+ENUNCIADO
+*/
+$main-color: blue;
+$primary-color: #eeff44;
+
+.btn{
+    background-color: $main-color;
+}
+
+.btn.primary{
+    background-color: #eeff44;
+    color: black;
+}
+
+
+//SOLUCIÓN
+$main-color: blue;
+$primary-color: #eeff44;
+
+.btn{
+    background-color: $main-color;
+
+    &.primary{
+        background-color: $primary-color;
+        color: black;
+    }
+}

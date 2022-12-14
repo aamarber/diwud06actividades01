@@ -1,0 +1,26 @@
+/*
+ENUNCIADO
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body article {
+    padding: 0.5em;
+}
+
+body article p,
+body article h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*/
+
+//SOLUCIÓN
+body{
+    article{
+        padding: 0.5em;
+
+        p, h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+}

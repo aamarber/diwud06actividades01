@@ -1,0 +1,17 @@
+@mixin even-colored-table($main-color: #bdd1f0, $secondary-color: #8493ab){
+    tr:nth-of-type(even) {
+        background-color:$main-color;
+        }
+
+    tr:nth-of-type(odd) {
+    background-color:$secondary-color;
+    }
+}
+
+table.even-colored{
+    @include even-colored-table();
+}
+
+table.even-colored.orange{
+    @include even-colored-table(#f7bd86, #bd824b);
+}
